@@ -409,9 +409,12 @@ main #home .lg-heading{
   }
   
   @media (min-height: 720px) and (min-width: 720px) {
-    /* .ctn {
-      transform: scale(2);
-    } */
+   svg{
+
+      width:20%;
+      height:6%;
+  
+   }
   }
   
   .ctn div {
