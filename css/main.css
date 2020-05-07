@@ -319,6 +319,10 @@ main .sm-heading{
 
 
 @media screen and (min-width: 600px) and (max-width: 1170px) {
+  svg{
+    width: 20%;
+    height: 10%;
+  }
   .projects {
     grid-template-columns: repeat(3, 1fr); }
     .job {
@@ -409,12 +413,7 @@ main #home .lg-heading{
   }
   
   @media (min-height: 720px) and (min-width: 720px) {
-   svg{
-
-      width:12%;
-      height:6%;
-  
-   }
+   
   }
   
   .ctn div {
