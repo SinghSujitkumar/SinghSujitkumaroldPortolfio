@@ -96,6 +96,8 @@
   box-sizing: border-box; }
 
 body {
+
+  overflow-x: hidden;
   background: #000;
   color: #fff;
   height: 100%;
@@ -318,6 +320,11 @@ main .sm-heading{
 
 
 @media screen and (min-width: 600px) and (max-width: 1170px) {
+  #contact-info div {
+    font-size: 1.2rem;}
+  body{
+    padding: .5rem;
+  }
   svg{
     width: 20%;
     height: 10%;
@@ -328,9 +335,15 @@ main .sm-heading{
       grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
-  #about{
-    padding-top: 100px;
-  }
+  main#home h1 {
+    margin-top: 10vh;
+}
+main .sm-heading{
+  margin-top: 5vh;
+}
+  #contact-info div {
+    font-size: 1.2rem;}
+
   svg{
     width:40%;
     height:12%;
@@ -375,12 +388,20 @@ main .sm-heading{
   } 
 
 @media screen and (max-width: 500px) {
-  #about{
-    padding-top: 100px;
+  main#home h1 {
+    margin-top: 10vh;
+}
+  #contact-info div {
+    font-size: 1.2rem;}
+  body{
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: .5rem;
   }
-  main {
+  .real-about{
+    padding-top: 110px;
+  }
 
-    padding: .2rem; }
     main .icons{
       padding-bottom: 2rem;
       text-align: center;
@@ -397,10 +418,12 @@ main #home .lg-heading{
       padding: -.6rem;
       font-size: 3.5rem; }
     main .sm-heading {
+        margin-top: 5vh;
         padding-top: .5rem;
         font-size: 2rem; }
   .bio{
     padding: .5rem;
+
   }
   .projects {
     grid-template-columns: 1fr;
@@ -414,9 +437,7 @@ main #home .lg-heading{
 
   }
   
-  @media (min-height: 720px) and (min-width: 720px) {
-   
-  }
+
   
   .ctn div {
     position: absolute;

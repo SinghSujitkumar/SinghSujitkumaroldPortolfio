@@ -1,3 +1,20 @@
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAl4Tvjrdm5cXozGOS7k4treZqkAYv5gE8",
+    authDomain: "sujitcodes-1323a.firebaseapp.com",
+    databaseURL: "https://sujitcodes-1323a.firebaseio.com",
+    projectId: "sujitcodes-1323a",
+    storageBucket: "sujitcodes-1323a.appspot.com",
+    messagingSenderId: "1025573058461",
+    appId: "1:1025573058461:web:bdc48ef09878c138dee174",
+    measurementId: "G-GCJE4QDQ09"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  db.settings({ timestampsInSnapshots: true }); 
+
 // Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
