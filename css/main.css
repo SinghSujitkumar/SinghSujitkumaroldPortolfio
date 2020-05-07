@@ -200,6 +200,7 @@ main .sm-heading{
     border-radius: 50%;
     border: #bc13fe 3px solid; }
   .about-info .bio {
+    padding: 10px;
     text-align: justify;
     text-justify: inter-word;
     grid-area: bio;
