@@ -200,6 +200,8 @@ main .sm-heading{
     border-radius: 50%;
     border: #bc13fe 3px solid; }
   .about-info .bio {
+    text-align: justify;
+    text-justify: inter-word;
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job{
