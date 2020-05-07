@@ -234,13 +234,9 @@ main .sm-heading{
     width: 100%;
     height:250px;
   }
-  .projects {
 
 
-    display: grid;	  
-    grid-gap: 2rem;	  
-    grid-template-columns: repeat(2, 1fr); 	  
-  }
+
 
 
 .projects {	
@@ -403,6 +399,9 @@ main #home .lg-heading{
     main .sm-heading {
         padding-top: .5rem;
         font-size: 2rem; }
+  .bio{
+    padding: .5rem;
+  }
   .projects {
     grid-template-columns: 1fr;
     padding:0.5rem; } }
