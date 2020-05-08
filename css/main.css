@@ -19,7 +19,11 @@
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
-
+#resume-btn{
+  text-align: center;
+  align-items: center;
+  width: 60%;
+}
 .menu {
   position: fixed;
   top: 0;
