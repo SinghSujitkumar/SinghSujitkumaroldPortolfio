@@ -1,3 +1,8 @@
+svg{
+  padding: 40px;
+  width: 13%;
+  height: 8%;
+}
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -19,10 +24,18 @@
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
-#resume-btn{
-  text-align: center;
+.about-info #resume-btn{
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
   align-items: center;
-  width: 60%;
+  width:250px;
+}
+#resume{
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+  align-items: center;
 }
 .menu {
   position: fixed;
@@ -121,6 +134,12 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(68, 68, 68, 0.9); }
+.bio #tech_stack{
+  grid-gap: 10px;
+}
+#project #experience #workshop{
+  padding-top: 20px;
+}
 
 h1,
 h2,
@@ -324,21 +343,28 @@ main .sm-heading{
 
 
 @media screen and (min-width: 600px) and (max-width: 1170px) {
+  svg{
+    padding: 20px;
+    width: 30%;
+    height: 12%;
+  }
   #contact-info div {
     font-size: 1.2rem;}
   body{
     padding: .5rem;
   }
-  svg{
-    width: 20%;
-    height: 10%;
-  }
+
   .projects {
     grid-template-columns: repeat(3, 1fr); }
     .job {
       grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
+  svg{
+    padding: 20px;
+    width: 30%;
+    height: 12%;
+  }
   main#home h1 {
     margin-top: 10vh;
 }
@@ -348,10 +374,7 @@ main .sm-heading{
   #contact-info div {
     font-size: 1.2rem;}
 
-  svg{
-    width:40%;
-    height:12%;
-  }
+
   main {
     padding: 0rem;
     align-items: center;
@@ -392,6 +415,11 @@ main .sm-heading{
   } 
 
 @media screen and (max-width: 500px) {
+  svg{
+    padding: 20px;
+    width: 30%;
+    height: 12%;
+  }
   main#home h1 {
     margin-top: 10vh;
 }
