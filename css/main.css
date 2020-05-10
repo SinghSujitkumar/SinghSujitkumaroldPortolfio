@@ -1,5 +1,21 @@
-svg{
+.icons svg{
   padding: 40px;
+  width: 13%;
+  height: 8%;
+}
+#tech-stack{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+ .project-icon{
+  width: 10%;
+  height: 2%;
+}
+.tech-item {
+  text-align: center;
+  padding: 50px;
   width: 13%;
   height: 8%;
 }
@@ -111,7 +127,10 @@ svg{
 
 * {
   box-sizing: border-box; }
-
+.icons svg{
+  width:10%;
+  /* padding: 35px; */
+}
 body {
 
   overflow-x: hidden;
@@ -173,12 +192,9 @@ header {
 main {
   padding: 5rem;
   min-height: calc(100vh - 60px); }
-  main .icons {
-    margin-top: 2rem; }
-    main .icons a {
-      padding: 1rem; }
-      main .icons a:hover {
-        color: #bc13fe;
+
+      main .icons  a svg:hover path{
+        fill: #bc13fe ;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -343,10 +359,14 @@ main .sm-heading{
 
 
 @media screen and (min-width: 600px) and (max-width: 1170px) {
-  svg{
-    padding: 20px;
-    width: 30%;
-    height: 12%;
+  .icons svg{
+    width:16%;
+    padding: 10px;
+  }
+ svg  .tech-item {
+    padding: 40px;
+    width: 13%;
+    height: 8%;
   }
   #contact-info div {
     font-size: 1.2rem;}
@@ -360,7 +380,11 @@ main .sm-heading{
       grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
-  svg{
+  .icons svg{
+    width:16%;
+    padding: 10px;
+  }
+  svg .tech-item {
     padding: 20px;
     width: 30%;
     height: 12%;
@@ -415,7 +439,11 @@ main .sm-heading{
   } 
 
 @media screen and (max-width: 500px) {
-  svg{
+  .icons svg{
+    width:16%;
+    padding: 10px;
+  }
+ .tech-item {
     padding: 20px;
     width: 30%;
     height: 12%;
@@ -435,7 +463,7 @@ main .sm-heading{
   }
 
     main .icons{
-      padding-bottom: 2rem;
+      padding-bottom: 3rem;
       text-align: center;
       align-content: ce;
     }
